@@ -24,13 +24,4 @@
     gap: 8em;
     align-items: center;
   }
-}
-
-body {
-  background-image: url("../assets/images/luzes.png");
-  background-repeat: none;
-}
-
-body {
-  min-height: 100vh;
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=navbar.css.map */

@@ -1,8 +1,4 @@
 body {
   background-image: url("../assets/images/luzes.png");
-}
-
-.logo {
-  height: 90px;
-  width: 150px;
+  background-repeat: none;
 }/*# sourceMappingURL=inicio.css.map */
