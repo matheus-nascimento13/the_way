@@ -4,12 +4,6 @@
 }
 
 @media (min-width: 991px) {
-  .container-fluid {
-    padding: 2em;
-  }
-}
-
-@media (min-width: 991px) {
   .logo {
     margin-left: 7em;
   }
@@ -19,16 +13,67 @@
   .container_items {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     margin-left: 3em;
     gap: 8em;
-    align-items: center;
   }
 }
 
 body {
   background-image: url("../assets/images/luzes.png");
-  background-repeat: none;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 991px) {
+  .imagem_jeito {
+    margin-bottom: 2em;
+    width: 2000px;
+    height: 560px;
+  }
+}
+
+@media (max-width: 991px) {
+  .imagem_jeito {
+    margin-bottom: 2em;
+    width: 700px;
+    height: 315px;
+  }
+}
+
+@media (min-width: 991px) {
+  .text_who_are {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 991px) {
+  .quem {
+    margin-left: 11rem;
+  }
+}
+
+.what_the_way {
+  background-image: url("../assets/images/luzes.png");
+}
+@media (min-width: 991px) {
+  .what_the_way {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12rem;
+  }
+}
+
+.esfera {
+  height: 570px;
+}
+
+@media (min-width: 991px) {
+  .missao_valores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 
 body {

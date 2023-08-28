@@ -1,0 +1,7 @@
+.missao_valores {
+    @media(min-width: 991px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

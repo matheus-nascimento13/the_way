@@ -1,0 +1,15 @@
+.what_the_way {
+  background-image: url("../assets/images/luzes.png");
+}
+@media (min-width: 991px) {
+  .what_the_way {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12rem;
+  }
+}
+
+.esfera {
+  height: 570px;
+}/*# sourceMappingURL=why_the_way.css.map */

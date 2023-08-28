@@ -1,0 +1,13 @@
+.text_who_are {
+    @media (min-width: 991px) {
+        display: flex;
+        justify-content: space-around;
+
+    }
+}
+
+.quem {
+    @media(min-width:991px) {
+        margin-left: 11rem;
+    }
+}

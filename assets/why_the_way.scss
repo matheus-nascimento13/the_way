@@ -1,0 +1,20 @@
+.what_the_way {
+
+    background-image: url("../assets/images/luzes.png");
+
+    @media(min-width:991px) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 12rem;
+
+    }
+}
+
+.text_second {
+    @media(min-width: 991px) {}
+}
+
+.esfera {
+    height: 570px;
+}

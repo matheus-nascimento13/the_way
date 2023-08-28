@@ -1,4 +1,20 @@
 body {
   background-image: url("../assets/images/luzes.png");
-  background-repeat: none;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 991px) {
+  .imagem_jeito {
+    margin-bottom: 2em;
+    width: 2000px;
+    height: 560px;
+  }
+}
+
+@media (max-width: 991px) {
+  .imagem_jeito {
+    margin-bottom: 2em;
+    width: 700px;
+    height: 315px;
+  }
 }/*# sourceMappingURL=inicio.css.map */

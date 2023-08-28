@@ -1,0 +1,7 @@
+@media (min-width: 991px) {
+  .missao_valores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}/*# sourceMappingURL=mv.css.map */

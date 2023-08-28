@@ -1,1 +1,12 @@
-/*# sourceMappingURL=quem_somos.css.map */
+@media (min-width: 991px) {
+  .text_who_are {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 991px) {
+  .quem {
+    margin-left: 11rem;
+  }
+}/*# sourceMappingURL=quem_somos.css.map */

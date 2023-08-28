@@ -4,15 +4,11 @@
 }
 
 .container-fluid {
-    @media (min-width: 991px) {
-        padding: 2em;
-
-    }
+    @media (min-width: 991px) {}
 }
 
 .logo {
     @media (min-width: 991px) {
-
         margin-left: 7em;
     }
 }
@@ -22,10 +18,9 @@
     @media (min-width: 991px) {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         margin-left: 3em;
         gap: 8em;
-        align-items: center;
+
     }
 
 
