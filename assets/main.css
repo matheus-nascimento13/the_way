@@ -4,8 +4,8 @@
 }
 
 @media (min-width: 991px) {
-  .logo {
-    margin-left: 7em;
+  .container-fluid {
+    padding-left: 13rem;
   }
 }
 
@@ -13,7 +13,6 @@
   .container_items {
     display: flex;
     flex-direction: row;
-    margin-left: 3em;
     gap: 8em;
   }
 }
